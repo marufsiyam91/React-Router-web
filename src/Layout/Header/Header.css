@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap');
+
+.container{
+    width: 100%;
+     margin: 0 auto;
+ }
+ 
+ .navigation{
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 75px;
+     padding: 0 60px;
+     background: #fff;
+     position: relative;
+ }
+ 
+ .logo-input-area{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .logo-area img{
+    width: 120px;
+ }
+ 
+
+ 
+ .search-area{
+     margin-left: 4vw;
+     position: relative;
+     width: 375px;
+     height: 42px;
+ }
+ 
+ .search-area input{
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #dadada;
+     outline: none;
+     border-radius: 30px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .search-area i{
+     position: absolute;
+     right: 12px;
+     top: 50%;
+     font-size: 16px;
+     transform: translateY(-50%);
+ }
+ 
+ #check{
+     display: none;
+ }
+ 
+ #open, #close{
+     position: absolute;
+     right: 0;
+     display: none;
+ }
+ 
+ .main-menu ul{
+     display: flex;
+ }
+ 
+ .main-menu ul li{
+     list-style-type: none;
+ }
+ 
+ .main-menu ul li a{
+     text-decoration: none;
+     padding: 2vw;
+     font-size: 16px;
+     color: #212121;
+     transition: all 0.3s ease;
+ }
+
+.main-menu ul li a:hover{
+    letter-spacing: 1px;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+@media(max-width: 600px){
+
+     p{
+          font-size: 22px;
+     }
+ 
+     .navigation{
+         height: 60px;
+     }
+ 
+     .navigation .logo-area .logo{
+         transform: translateX(50%);
+         width: 80px;
+     }
+ 
+     .search-area{
+         width: 30px;
+         height: 30px;
+     }
+ 
+     .search-area input{
+         height: 100%;
+         border: none;
+     }
+ 
+     .main-menu ul{
+         flex-direction: column;
+     }
+ 
+     .main-menu ul li{
+         padding: 15px 0;
+         display: block;
+         width: 215px;
+         transition: all 0.3s ease;
+     }
+ 
+     .main-menu ul li:hover {
+         letter-spacing: 1px;
+     }
+ 
+     .main-menu ul li a{
+         color: #fff;
+     }
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+     #open{
+         display: block;
+         }
+ 
+     .main-menu{
+         position: absolute;
+         display: flex;
+         align-items: center;
+         width: 215px;
+         height: 309px;
+         border-radius: 5px;
+         top: 39px;
+         right: -100%;
+         background: rgba(0, 0, 0, 0.6);
+         backdrop-filter: blur(5px);
+         transition: all 0.6s ease;
+     }
+ 
+ 
+     #check:checked ~ .main-menu{
+         display: block;
+         top: 39px;
+         right: 0;
+     }
+ 
+     #check:checked ~ #open{
+         display: none;
+     }
+ 
+     #check:checked ~ #close{
+         display: block;
+     }
+ 
+     .container{
+         padding: 0 10px;
+     }
+ }
+ 
+ 
+ 
+ 

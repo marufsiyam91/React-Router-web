@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700;800&display=swap');
+
+.basic-form-area{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    background: #212121;
+}
+
+.form-content{ 
+    width: 1200px;
+    height: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 250px;
+}
+
+.form-main{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50px 0 0 50px;
+
+}
+
+.form-main .logo{
+    padding: 45px 0 0 54px;
+}
+
+.form-main h2{
+    color: #000;
+    font-family: Bebas Neue;
+    font-size: 68px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 118px 0 20px 170px;
+}
+
+.form-main h3{
+    color: #000;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 146px;
+}
+
+.form-main .log-with-google{
+    padding: 16px 68px;
+    border-radius: 60px;
+    background: #FFF;
+    border-radius: 6px;
+    border: 1px solid #D2D2D2;
+    color: #2E2E2E;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 164px;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.form-main .log-with-google img{
+    margin-right: 12px;
+}
+
+
+.or-area{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 238px;
+    margin-bottom: 40px;
+}
+
+.or-area p{
+    color: #AFA8A8;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 16px;
+}
+
+.or-area hr{
+    width: 60px;
+    background: #AFA8A8;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 420px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #D2D2D2;
+    color: #2E2E2E;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 20px 113px;
+    padding: 21px 0 20px 19px;
+}
+
+.input-checkbox{
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+label{
+    color: #000;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.register-btn{
+    color: #FFF;
+    text-align: right;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 191px 19px 173px;
+    border-radius: 30px;
+    background: #000;
+    border: none;
+    margin: 24px 0 40px 113px;
+}
+
+
+.form-main h4{
+    color: #000;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 209px;
+}
+
+.form-main h4 .log-in-color{
+    color: #FEC00F;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.form-right{
+    width: 50%;
+}
+
+.form-right img{
+    border-radius: 0 50px 50px 0;
+}
+
+.bottom{
+    margin-top: 250px;
+}

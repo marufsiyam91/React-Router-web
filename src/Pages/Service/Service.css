@@ -1,0 +1,87 @@
+.help{
+     width: 100%;
+     padding: 0 0 0 80px;
+     background: #fff;
+     display: flex;
+     justify-content: space-between;
+}
+
+.help-text{
+     width: calc(44% - 80px);
+     margin-top: 280px;
+     position: relative;
+}
+
+.help-text h1{
+     font-size: 45px;
+     position: relative;
+     z-index: 1;
+     color: #000;
+     margin-bottom: 60px;
+}
+
+.help-text p{
+     font-size: 18px;
+     position: relative;
+     z-index: 1;
+     margin-bottom: 117px;
+}
+
+.help-text .help-rect{
+     position: absolute;
+     left: -40px;
+     top: -40px;
+}
+
+.help-dot{
+     display: flex;
+}
+
+.help-dot .help-dot-one{
+     margin-right: 14px;
+}
+
+.ideas{
+     width: 56%;
+}
+
+.ideas .background{
+     position: absolute;
+     right: 0;
+     top: 160px;
+}
+
+.child{
+     position: relative;
+     z-index: 1;
+}
+
+.first-row, .second-row{
+     display: flex;
+}
+
+.idea-one {
+     top: 80px;
+     right: 60px;
+}
+
+.idea-two{
+     top: 0px;
+     right: 130px;
+}
+
+.idea-three {
+     top: 10px;
+     right: 60px;
+}
+
+.idea-four{
+     top: -70px;
+     right: 130px;
+}
+
+.idea-rect{
+     position: absolute;
+     right: 0;
+     bottom: -160px;
+}
